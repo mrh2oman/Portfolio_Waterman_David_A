@@ -27,7 +27,8 @@
     color: white;
 }
 
-.linkA {
+.linkA,
+#linkA {
     color: #007bff;
 }
 
@@ -37,4 +38,8 @@
 
 .navB {
     background-color: #3a3f3f;
+}
+
+.hamburger {
+    background-color: #007bff;
 }
