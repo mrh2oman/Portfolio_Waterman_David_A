@@ -43,3 +43,17 @@
 .hamburger {
     background-color: #007bff;
 }
+
+.interestIcons {
+    height: 35px;
+    width: auto;
+    margin-right: 3px;
+}
+
+
+/* .watermanLogo {
+    height: 100px;
+    width: auto;
+    float: left;
+    display: inline-flex;
+} */
