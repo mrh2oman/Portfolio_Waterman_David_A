@@ -1,5 +1,33 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<!-- <html lang="en-us">
+<html lang="en">
+
+<head>
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="1067197289895-7uf26s6oa03jd1293s7nrdqpo0um8g97.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+
+<body>
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+    <script>
+        function onSignIn(googleUser) {
+            // Useful data for your client-side scripts:
+            var profile = googleUser.getBasicProfile();
+            console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+            console.log('Full Name: ' + profile.getName());
+            console.log('Given Name: ' + profile.getGivenName());
+            console.log('Family Name: ' + profile.getFamilyName());
+            console.log("Image URL: " + profile.getImageUrl());
+            console.log("Email: " + profile.getEmail());
+
+            // The ID token you need to pass to your backend:
+            var id_token = googleUser.getAuthResponse().id_token;
+            console.log("ID Token: " + id_token);
+        };
+    </script>
+</body> -->
+<!-- </html> -->
 
 <head>
     <link rel="icon" type="image/png" href="assets/images/batman.png">
@@ -53,6 +81,7 @@
         <div class="container">
             <div class="card">
                 <div class="card-header">
+                    Harvard University Class Day Commencement Address May 26th, 2011
                 </div>
                 <div class="card-body">
                     <blockquote class="blockquote mb-0">
@@ -62,11 +91,22 @@
                     </blockquote>
                 </div>
             </div>
+            <div class="card">
+                <div class="card-header">
+                    Agreed
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>You just put yourself into your work, and you can do anything you want, depending on how hard you want to work for it.
+                        </p>
+                        <footer class="blockquote-footer">T.J. Miller </footer>
+                    </blockquote>
+                </div>
+            </div>
         </div>
         <br>
         <br>
-
-        <!-- <div class="container">
+        <div class="container">
             <div class="card text-center">
                 <div class="card-header">
                 </div>
@@ -78,13 +118,13 @@
                 </div>
             </div>
 
-        </div> -->
-        <!-- /container -->
+        </div>
+        /container
 
     </main>
 
     <nav class="navbar fixed-bottom navbar-expand navB">
-        <!-- <a class="navbar-brand" href="#">Waterman</a> -->
+        <a class="navbar-brand" href="#">Waterman</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
@@ -103,10 +143,11 @@
             </ul>
         </div>
     </nav>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+    <script src="assets/javascript/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
