@@ -1,3 +1,28 @@
+body,
+html {
+    height: 100%;
+    background-color: #3a3f3f;
+    color: #3a3f3f;
+}
+
+.hero-image {
+    background-image: url("../images/DSC_8587_straight.JPG");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
 .center {
     position: absolute;
     left: 10px;
@@ -57,3 +82,17 @@
     float: left;
     display: inline-flex;
 } */
+
+.this {
+    height: 250px;
+    width: auto;
+    color: #3a3f3f;
+    /* color: white; */
+}
+
+.this1 {
+    height: 250px;
+    width: auto;
+    /* color: #3a3f3f; */
+    color: white;
+}
