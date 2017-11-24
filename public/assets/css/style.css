@@ -114,10 +114,11 @@ html {
 }
 
 .this1 {
-    height: 250px;
-    width: auto;
-    /* color: #3a3f3f; */
+    /* height: 250px;
+    width: auto; */
+    background-color: #3a3f3f;
     color: white;
+    border-color: #3a3f3f;
 }
 
 .this2 {
@@ -135,10 +136,7 @@ html {
     color: white !important;
 }
 
-.card-block {
-    height: 100px;
-}
 
-.portButton {
+/* .portButton {
     margin-top: 40px;
-}
+} */
