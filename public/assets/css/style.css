@@ -38,6 +38,7 @@ html {
 .interest {
     height: 320px;
     width: 320px;
+    /* margin: auto; */
 }
 
 .jumbotron {
@@ -55,6 +56,27 @@ html {
 .linkA,
 #linkA {
     color: #007bff;
+    text-align: center;
+}
+
+.linkAA {
+    color: #007bff;
+    text-align: center;
+    background-color: black;
+}
+
+.linkA:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.linkAA:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.linkAAA {
+    background-color: black;
 }
 
 .navA {
@@ -62,7 +84,8 @@ html {
 }
 
 .navB {
-    background-color: #3a3f3f;
+    /* background-color: #3a3f3f; */
+    /* margin-right: 400px; */
 }
 
 .hamburger {
@@ -102,4 +125,20 @@ html {
     width: auto;
     /* color: #3a3f3f; */
     color: white;
+}
+
+.titleCard {
+    color: black;
+}
+
+.titlesInterests {
+    color: white !important;
+}
+
+.card-block {
+    height: 100px;
+}
+
+.portButton {
+    margin-top: 40px;
 }
